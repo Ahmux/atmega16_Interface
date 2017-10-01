@@ -110,7 +110,7 @@ void seven_segment(char n){
 	}		
 }
 
-int main(void)
+void main(void)
 {
 	while(1){
 		seven_segment(keys());
